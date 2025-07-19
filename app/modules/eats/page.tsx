@@ -1,5 +1,5 @@
-import React from 'react'
-import { View, Text } from 'react-native'
+import React from 'react';
+import { View, Text } from 'react-native';
 
 export default function EatsScreen() {
   return (
@@ -7,5 +7,5 @@ export default function EatsScreen() {
       <Text style={{ fontSize: 24 }}>🍽️ Eats</Text>
       <Text>Browse local eats and community favorite dishes.</Text>
     </View>
-  )
+  );
 }

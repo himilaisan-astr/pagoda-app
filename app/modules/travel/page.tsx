@@ -1,5 +1,5 @@
-import React from 'react'
-import { View, Text } from 'react-native'
+import React from 'react';
+import { View, Text } from 'react-native';
 
 export default function TravelScreen() {
   return (
@@ -7,5 +7,5 @@ export default function TravelScreen() {
       <Text style={{ fontSize: 24 }}>✈️ Travel</Text>
       <Text>Get inspired by travel tips and guides.</Text>
     </View>
-  )
+  );
 }

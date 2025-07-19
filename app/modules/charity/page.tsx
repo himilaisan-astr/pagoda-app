@@ -1,5 +1,5 @@
-import React from 'react'
-import { View, Text } from 'react-native'
+import React from 'react';
+import { View, Text } from 'react-native';
 
 export default function CharityScreen() {
   return (
@@ -7,5 +7,5 @@ export default function CharityScreen() {
       <Text style={{ fontSize: 24 }}>❤️ Charity</Text>
       <Text>Give back to the community through charitable efforts.</Text>
     </View>
-  )
+  );
 }

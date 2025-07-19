@@ -1,5 +1,5 @@
-import React from 'react'
-import { View, Text } from 'react-native'
+import React from 'react';
+import { View, Text } from 'react-native';
 
 export default function LearningScreen() {
   return (
@@ -7,5 +7,5 @@ export default function LearningScreen() {
       <Text style={{ fontSize: 24 }}>📚 Learning</Text>
       <Text>Level up with courses and knowledge sharing.</Text>
     </View>
-  )
+  );
 }

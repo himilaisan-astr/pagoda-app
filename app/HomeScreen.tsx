@@ -1,7 +1,7 @@
-import React from 'react'
-import { View, Text, Button, StyleSheet } from 'react-native'
+import React from 'react';
+import { View, Text, Button, StyleSheet } from 'react-native';
 
-const HomeScreen = ({ navigation } : any) => {
+const HomeScreen = ({ navigation }: any) => {
   return (
     <View style={styles.container}>
       <Text>Home Screen</Text>
@@ -12,8 +12,8 @@ const HomeScreen = ({ navigation } : any) => {
         }
       />
     </View>
-  )
-}
+  );
+};
 
 const styles = StyleSheet.create({
   container: {
@@ -21,6 +21,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-})
+});
 
-export default HomeScreen
+export default HomeScreen;

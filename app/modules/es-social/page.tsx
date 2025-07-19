@@ -1,5 +1,5 @@
-import React from 'react'
-import { View, Text } from 'react-native'
+import React from 'react';
+import { View, Text } from 'react-native';
 
 export default function ESSocialScreen() {
   return (
@@ -7,6 +7,5 @@ export default function ESSocialScreen() {
       <Text style={{ fontSize: 24 }}>💬 ES Social</Text>
       <Text>Connect with others in the ES community.</Text>
     </View>
-  )
+  );
 }
-    
